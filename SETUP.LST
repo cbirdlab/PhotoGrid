@@ -1,0 +1,163 @@
+[Bootstrap]
+SetupTitle=Install
+SetupText=Copying Files, please stand by.
+CabFile=PhotoG1.CAB
+Spawn=Setup1.exe
+Uninstal=st6unst.exe
+TmpDir=msftqws.pdw
+Cabs=3
+
+[Bootstrap Files]
+File1=@VB6STKIT.DLL,$(WinSysPathSysFile),,,6/1/99 12:00:00 AM,101888,6.0.84.50
+File2=@COMCAT.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,5/31/98 12:00:00 AM,22288,4.71.1460.1
+File3=@ASYCFILT.DLL,$(WinSysPathSysFile),,,3/8/99 12:00:00 AM,147728,2.40.4275.1
+File4=@OLEPRO32.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,3/8/99 12:00:00 AM,164112,5.0.4275.1
+File5=@OLEAUT32.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,4/12/00 12:00:00 AM,598288,2.40.4275.1
+File6=@STDOLE2.TLB,$(WinSysPathSysFile),$(TLBRegister),,6/3/99 12:00:00 AM,17920,2.40.4275.1
+File7=@msvbvm60.dll,$(WinSysPathSysFile),$(DLLSelfRegister),,8/23/01 2:00:00 AM,1388544,6.0.92.37
+
+[IconGroups]
+Group0=PhotoGrid
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[PhotoGrid]
+Icon1="help.htm"
+Title1=PhotoGrid 1.0 beta Help Files
+StartIn1=$(AppPath)
+Icon2=""Order PhotoGrid.htm""
+Title2=Order PhotoGrid 1.0!
+StartIn2=$(AppPath)
+Icon3=""PhotoGrid 1.0 beta Acad.exe""
+Title3=PhotoGrid 1.0 beta
+StartIn3=$(AppPath)
+
+[Setup]
+Title=PhotoGrid 1.0 beta Academic
+DefaultDir=$(ProgramFiles)\PhotoGrid 1.0
+AppExe=PhotoGrid 1.0 beta Acad.exe
+AppToUninstall=PhotoGrid 1.0 beta Acad.exe
+
+[Setup1 Files]
+File1=@Default.txt,$(AppPath)\Species Colors,,$(Shared),1/27/03 9:03:02 PM,559,0.0.0.0
+File2=@tshooting.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 2:19:55 AM,2965,0.0.0.0
+File3=@TOC.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 3:58:59 PM,868,0.0.0.0
+File4=@title.htm,$(AppPath)\PhotoGrid Help,,,6/15/02 10:58:22 PM,590,0.0.0.0
+File5=@WhatsWhat.JPG,$(AppPath)\PhotoGrid Help,,,6/15/02 11:56:58 PM,164376,0.0.0.0
+File6=@Starting.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 12:58:18 AM,2562,0.0.0.0
+File7=@SysReqs.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 12:29:46 AM,2201,0.0.0.0
+File8=@Starti9.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:30:44 PM,11543,0.0.0.0
+File9=@Starti8.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:30:44 PM,11072,0.0.0.0
+File10=@Starti7.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:15:22 PM,49324,0.0.0.0
+File11=@Starti7.gif,$(AppPath)\PhotoGrid Help,,,6/15/02 11:18:36 PM,116046,0.0.0.0
+File12=@Starti6.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:12:50 PM,14352,0.0.0.0
+File13=@Starti5.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:12:50 PM,11593,0.0.0.0
+File14=@Starti4.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:12:50 PM,11584,0.0.0.0
+File15=@Starti3.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:19:21 AM,15954,0.0.0.0
+File16=@Starti2.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:15:28 PM,7642,0.0.0.0
+File17=@Starti1.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:19:21 AM,9925,0.0.0.0
+File18=@Starti10.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 11:35:02 PM,10106,0.0.0.0
+File19=@preferences.htm,$(AppPath)\PhotoGrid Help,,,2/2/03 11:20:04 AM,9051,0.0.0.0
+File20=@saving.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 1:17:58 PM,509,0.0.0.0
+File21=@prefer15.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:49:50 AM,2132,0.0.0.0
+File22=@prefer14.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:49:50 AM,1588,0.0.0.0
+File23=@prefer13.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:55:52 AM,4065,0.0.0.0
+File24=@prefer12.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:49:50 AM,4969,0.0.0.0
+File25=@prefer11.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:55:52 AM,5314,0.0.0.0
+File26=@prefer10.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:55:52 AM,5599,0.0.0.0
+File27=@prefer9.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:49:48 AM,27902,0.0.0.0
+File28=@prefer8.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:54:42 AM,49292,0.0.0.0
+File29=@prefer7.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:49:48 AM,9783,0.0.0.0
+File30=@prefer16.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 2:04:55 AM,3096,0.0.0.0
+File31=@PhotoGridHelp.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 1:14:16 AM,722,0.0.0.0
+File32=@PhotoGrid_Crosshairs.JPG,$(AppPath)\PhotoGrid Help,,,6/15/02 9:05:18 PM,28986,0.0.0.0
+File33=@PGridHelp.jpg,$(AppPath)\PhotoGrid Help,,,6/15/02 9:39:54 PM,26910,0.0.0.0
+File34=@pi_cover.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 1:32:51 AM,9356,0.0.0.0
+File35=@densit6.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:40:31 AM,10974,0.0.0.0
+File36=@densit5.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:40:31 AM,10943,0.0.0.0
+File37=@densit4.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:40:31 AM,10984,0.0.0.0
+File38=@densit3.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:08:00 AM,32062,0.0.0.0
+File39=@densit2.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:08:00 AM,31441,0.0.0.0
+File40=@densit1.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 11:07:58 AM,58513,0.0.0.0
+File41=@density.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 1:40:31 AM,8914,0.0.0.0
+File42=@cover.8.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:31:36 AM,12546,0.0.0.0
+File43=@cover.7.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:29:27 AM,12535,0.0.0.0
+File44=@cover.6.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 10:26:16 AM,12812,0.0.0.0
+File45=@cover.5.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:32:50 AM,50961,0.0.0.0
+File46=@cover.4.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 9:51:26 AM,37946,0.0.0.0
+File47=@cover.3.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:31:36 AM,19925,0.0.0.0
+File48=@cover.9.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:31:36 AM,12639,0.0.0.0
+File49=@cover.1.jpg,$(AppPath)\PhotoGrid Help,,,6/16/02 9:51:26 AM,62898,0.0.0.0
+File50=@buttons.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 2:22:31 AM,5145,0.0.0.0
+File51=@area.htm,$(AppPath)\PhotoGrid Help,,,2/2/03 10:45:49 AM,10580,0.0.0.0
+File52=@cover.2.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:19:21 AM,12142,0.0.0.0
+File53=@area6.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 2:35:05 PM,12379,0.0.0.0
+File54=@area5.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 2:35:05 PM,12131,0.0.0.0
+File55=@area4.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 2:06:51 PM,31203,0.0.0.0
+File56=@area3.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 2:06:51 PM,11608,0.0.0.0
+File57=@area2.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:49:40 PM,11572,0.0.0.0
+File58=@area1.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 1:49:40 PM,68155,0.0.0.0
+File59=@about.htm,$(AppPath)\PhotoGrid Help,,,1/28/03 12:55:10 AM,6692,0.0.0.0
+File60=@area7.jpg,$(AppPath)\PhotoGrid Help,,,1/28/03 2:35:05 PM,26332,0.0.0.0
+File61=@ButtonsFordIslandPanels.txt,$(AppPath)\Species Buttons,,$(Shared),11/20/01 9:40:02 AM,3301,0.0.0.0
+File62=@ButtonsNWHI.txt,$(AppPath)\Species Buttons,,$(Shared),11/19/02 11:43:35 PM,6276,0.0.0.0
+File63=@Buttons Urch-Opihi-Alg 2002.txt,$(AppPath)\Species Buttons,,$(Shared),11/25/02 1:36:02 AM,4068,0.0.0.0
+File64=@Buttons Kuulei.txt,$(AppPath)\Species Buttons,,$(Shared),11/24/02 12:47:52 PM,2474,0.0.0.0
+File65=@Buttons Kolinski.txt,$(AppPath)\Species Buttons,,$(Shared),4/29/02 1:24:00 PM,2195,0.0.0.0
+File66=@Buttons Hawaiian Intertidal.txt,$(AppPath)\Species Buttons,,$(Shared),9/10/01 5:50:26 PM,6061,0.0.0.0
+File67=@Buttons Hawaiian Intertidal Functional Form.txt,$(AppPath)\Species Buttons,,$(Shared),3/20/02 9:28:16 PM,4930,0.0.0.0
+File68=@ButtonsCMSmithBot351.txt,$(AppPath)\Species Buttons,,$(Shared),11/20/02 12:01:48 AM,1331,0.0.0.0
+File69=@ButtonsDefault.txt,$(AppPath)\Species Buttons,,$(Shared),5/20/02 12:59:32 AM,5832,0.0.0.0
+File70=@PhotoGrid_CD.GIF,$(AppPath),,,6/18/02 7:48:20 PM,29644,0.0.0.0
+File71=@Order PhotoGrid.htm,$(AppPath),,,1/28/03 3:44:41 PM,4384,0.0.0.0
+File72=@PhotoGrid EULA.rtf,$(AppPath),,,10/16/02 3:08:28 PM,8378,0.0.0.0
+File73=@help.htm,$(AppPath),,,6/17/02 7:35:02 AM,478,0.0.0.0
+File74=@SYSINFO.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),6/24/98 12:00:00 AM,67376,6.0.81.69
+File75=@comdlg32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/7/99 1:00:00 AM,140288,6.0.84.18
+File76=@TABCTL32.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),12/6/00 12:00:00 AM,209608,6.0.90.43
+File77=@comct232.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),4/3/00 5:52:22 PM,164144,6.0.80.22
+File78=@comctl32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/22/00 4:58:00 PM,608448,6.0.81.5
+File79=@Mscomct2.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/22/00 12:00:00 AM,647872,6.0.88.4
+File80=@mscomctl.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/22/00 12:00:00 AM,1066176,6.0.88.62
+File81=@COMCT332.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),12/6/00 12:00:00 AM,415176,6.7.0.8988
+File82=@FoxCBmp3.dl,$(WinSysPath),,$(Shared),4/7/01 12:43:06 PM,65536,3.3.0.1
+File83=@PhotoGrid 1.0 beta Acad.exe,$(AppPath),,,2/6/03 5:18:44 PM,737280,1.0.0.17
+
+; The following lines may be deleted in order to obtain extra 
+; space for customizing this file on a full installation diskette.
+; 
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
