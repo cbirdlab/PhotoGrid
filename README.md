@@ -17,7 +17,10 @@ SETUP.LST
 
 You must have all of the files above in the same folder to install PhotoGrid 1.0 beta.
 
+Clone or download the files in this repo
+
 To begin installation, double click `setup.exe`
+
 
 ## Support
 
